@@ -1,5 +1,5 @@
 <table>
-    <th>Person Name</th>
+    <th>Historical Figure Name</th>
     <tr>
       <td align="center"><a href="/figures/<%= @figure.id %>"><%= @figure.name %></a>
       <ul>
@@ -9,7 +9,7 @@
           <%end%>
       </ul>
       <ul>
-        Figure Titles:
+        Historical Figure Titles:
           <%@figure.titles.each do |title|%>
           <li><%=title.name%></li>
 
